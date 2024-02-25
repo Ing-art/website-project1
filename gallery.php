@@ -4,8 +4,10 @@
         <meta charset = "UTF-8">
         <meta name = "viewport" content="width=device-width, initial-scale=1.0">
         <title>Barcelona Street Parade Fotos</title>
+        <link rel="stylesheet" type="text/css" href="css/bs.css">
         <link rel="stylesheet" type="text/css" href="css/style2.css">
         <link rel="stylesheet" type="text/css" href="css/stylegallery.css">
+        <script src="js/bootstrap.min.js"></script>
         <script src="js/javascript1.js"></script>
     </head>
     <body>
@@ -40,7 +42,7 @@
                     <img id="img8" class = "slide" src="images/gallery/barcelona_street_parade_8.jpg" alt="espectacle al carrer">
                 </figure>
                 <figure class="flex1 imgcontainer">
-                    <img id="img8" class = "slide" src="images/gallery/barcelona_street_parade_9.jpg" alt="espectacle al carrer">
+                    <img id="img9" class = "slide" src="images/gallery/barcelona_street_parade_9.jpg" alt="espectacle al carrer">
                 </figure>
                 
             </div>

@@ -4,7 +4,8 @@
 
 .formsection ,.mapzone {
     padding: 10px;
-    background-color: rgb(255, 255, 255, 0.8);
+    /*background-color: rgb(255, 255, 255, 0.8);*/
+    background-color: transparent;
 }
 
 .formsection h2 {
@@ -46,7 +47,7 @@
 
 .contactform label {
     display: inline-block;
-    min-width: 80px;
+    min-width: 100px;
     margin: 10px 10px;
     font-style: italic;
     text-align:left;
@@ -56,6 +57,7 @@
 
 select {
     display: inline-block;
+    text-align:left;
     min-width: 200px;    
     padding: 8px 10px;
     color:#592B27
@@ -131,4 +133,11 @@ input[type=submit], input[type=reset] {
     box-shadow:none;
     text-align: center;
     background-color: transparent;
+}
+
+.contactcard {
+    max-width:350px;
+    height:auto;
+    border-radius:5px;
+    border:solid 1px #E37E06ff;
 }

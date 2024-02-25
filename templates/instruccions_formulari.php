@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST['message'];
     
     // Correu electrònic de destinació
-    $to = 'example@example.com';
+    $to = 'gumbojassband@gmail.com';
     
     // Capçaleres
     $headers = "From: $user_email \r\n";
@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($to, $subject, $message, $headers);
     
     // Redirigeix a una pàgina de confirmació
-    header('Location: confirmation.html');
+    header('Location: confirmation.php');
     exit;
 }
 ?>

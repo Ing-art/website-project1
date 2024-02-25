@@ -4,9 +4,10 @@
         <meta charset = "UTF-8">
         <meta name = "viewport" content="width=device-width, initial-scale=1.0">
         <title>Barcelona Street Parade Videos</title>
+        <link rel="stylesheet" type="text/css" href="css/bs.css">
         <link rel="stylesheet" type="text/css" href="css/style2.css">
         <link rel="stylesheet" type="text/css" href="css/stylevideos.css">
-        <script src="js/javascript3.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
     <?php require 'templates/template.php' ?>

@@ -41,7 +41,7 @@ window.addEventListener('load',next);
 var i = 0;
 var myInterval = setInterval(next,10000);
 var images = ['images/slideshow/bolo1.jpg','images/slideshow/bolo2.jpg',
-    'images/slideshow/bolo3.jpg','images/slideshow/bolo4.jpg','images/slideshow/bolo5.jpg','images/slideshow/bolo6.jpg','images/slideshow/bolo7.jpg'];
+    'images/slideshow/bolo3.jpg','images/slideshow/bolo4.jpg','images/slideshow/bolo5.jpg','images/slideshow/bolo7.jpg'];
 
 
 

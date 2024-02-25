@@ -1,11 +1,35 @@
 <?php function myheader(string $mypage = ''){ ?>
 
 <header class="top">          
-<nav class="topnav">
-    <a href="home.php" <?= $mypage == "home" ? "class='active'": "" ; ?>> Inici</a>
-    <a href="gallery.php" <?= $mypage == "gallery" ? "class='active'": "" ; ?>>Galeria</a>
-    <a href="videos.php" <?= $mypage == "videos" ? "class='active'": "" ; ?>>Videos</a>
-    <a href="contact.php" <?= $mypage == "contact" ? "class='active'": "" ; ?>>Contacte</a>           
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">       <!--class topnav as default-->
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <br>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="home.php" class="nav-link <?= $mypage == "home" ? 'active' : '' ?>">Inici</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.php" class="nav-link <?= $mypage == "gallery" ? 'active' : '' ?>">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a href="videos.php" class="nav-link <?= $mypage == "videos" ? 'active' : '' ?>">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.php" class="nav-link <?= $mypage == "contact" ? 'active' : '' ?>">Contacte</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://facebook.com/barcelonastreetparade" ><img src="images/facebook-icon.png" alt="facebook" class="socialmedia"></a> 
+                </li>
+                <li class="nav-item">
+                    <a href="https://instagram.com/barcelonastreetparade" ><img src="images/instagram-icon.png" alt="instagram" class="socialmedia"></a>
+                </li>
+            </ul>
+        </div> 
+    </div>         
 </nav>
 </header>
 
@@ -14,51 +38,13 @@
 <?php function mylogo() { ?>
     <div id="title">
             <a href="home.php">
-            <img id="logo" src="images/bcnlogo.jpg" alt="logo" title="logo"></a> 
+            <img id="logo" src="images/bcnlogo_2.jpg" alt="logo" title="logo"></a> 
             <br>
         </div>  
 <?php } ?>
 
 <?php function myfooter() { ?>
-
-    <footer>
-            <div class="flex-container bottom">
-                <div class="flex1 bottomsec">
-                    <span class="bottomtitle">Company</span>
-                    <div class="item-links">
-                        <ul class="footer-links">
-                            <li><a href="home.php#intro">About Us</a></li>
-                            <li><a href="contact.php">Careers</a></li>
-                            <li><a href="home.php#new">Press Room</a></li>                    
-                        </ul>
-                    </div>
-                </div>
-                <hr class="hidden-sm">
-                <div class="flex1 bottomsec">
-                    <span class="bottomtitle">Resources</span>
-                    <div class="item-links">
-                        <ul class="footer-links">
-                            <li><a href="contact.php">Contact Us</a></li>
-                            <li><a href="home.php">Our team</a></li>
-                            <li><a href="login.php">Services</a></li>
-                            <li><a href="">FAQ</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <hr class="hidden-sm">
-                <div class="flex1 bottomsec">
-                    <span class="bottomtitle">Policies</span>
-                    <div class="item-links">
-                        <ul class="footer-links">
-                           <li><a href="home.php">Terms of Use</a></li>
-                            <li><a href="home.php">Membership</a></li>
-                            <li><a href="home.php">Accessibility</a></li>
-                        </ul>       
-                    </div>
-                </div>
-            </div>   
-        </footer>
-        <div id="footinfo">
+        <div id="footinfo" class="d-flex justify-content-start">
             <p>Author: IA 2024</p>
         </div>   
 <?php } ?>

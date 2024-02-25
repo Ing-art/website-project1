@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: Tahoma, sans-serif;
+    color:white;
+
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.flex-container {
+	display:flex;
+	flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: start;
+    align-content: start;
+}
+
+.flex1{flex:1;}
+.flex2{flex:2;}
+.flex3{flex:3;}
+.flex4{flex:4;}
+.flex5{flex:5;}
+
+html{
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
+	background-size: cover;
+    background-repeat:no-repeat;
+}
+
+body {
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    width: 85%;
+    min-width: 300px;
+    max-width: 1600px;
+    border: solid 1px #000000;
+    box-shadow: 0px 0px 10px rgba(247, 244, 244, 0.6);
+}
+
+/*top*/
+
+#pagetop {
+    position: relative;
+    padding:0;
+    height:70px;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:4;
+}
+
+.bar {
+    overflow: hidden;
+    display:block;
+}
+
+#logo {
+    position:absolute;
+    margin:0;
+    left:0;
+    width:30px;
+    height:30px;
+    display:inline-block
+
+}
+
+
+/*Nav Menu*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position:relative;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color:  #592B27;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+
+/*Main Sections*/
+
+#intro #new {
+    text-align:center;
+    
+}
+
+h1 {
+    color:#592B27;
+    text-align: justify;
+    padding-left:2rem;
+    padding-right:2rem;
+    font-family: 'Lucida Sans';
+}
+
+main p {
+    text-align: justify;
+    text-shadow: 2px 2px 15px #D0ECF2;
+    color:black;
+    padding:2rem;
+    margin: 1rem;
+    background-color:whitesmoke; 
+    box-shadow: 0px 0px 10px rgba(60,60,60,0.6);
+    border-radius:10px;
+}
+
+.imgcontainer {
+    margin:4px;
+}
+
+#slides {
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5px;
+
+}
+
+.slide {
+    width:300px;
+    height:300px;
+    border-radius:10px;
+    object-fit:cover;
+}
+
+/*Bottom page*/
+
+footer {
+    background-color: rgb(91, 152, 166, 0.7);
+    bottom: 0;
+    border-radius: 10px;
+    margin: 1rem;
+  }
+
+#mapaweb {
+    color: white;
+    font-size: 1em;
+}
+
+#mapaweb li {
+    position: relative;
+    flex: 1;
+    min-width: 100px;
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+}
+
+footer #footinfo {
+    padding: 10px;
+    margin: 10px;
+    font-size:small;
+    font-style:italic;
+    text-align:center;
+}
+

@@ -1,0 +1,134 @@
+.message {
+    margin-top: 2rem;
+}
+
+.formsection ,.mapzone {
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+.formsection h2 {
+    margin-top: 1rem;
+    color:#592B27;
+    text-align: center;
+}
+
+.formsection p {
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    border:none;
+    box-shadow:none;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+.formsection input {
+    min-width: 200px;    
+    padding: 8px 10px;
+}
+
+
+.contactform {
+    margin: 5px;
+    display:block;
+    border:none;
+    text-align: center;
+}
+
+.contactform p {
+    border:none;
+    box-shadow:none;
+    text-align: center;
+    background-color: transparent;
+
+}
+
+.contactform label {
+    display: inline-block;
+    min-width: 80px;
+    margin: 10px 10px;
+    font-style: italic;
+    text-align:left;
+    color: #592B27;
+    font-style:normal
+}
+
+select {
+    display: inline-block;
+    min-width: 200px;    
+    padding: 8px 10px;
+    color:#592B27
+}
+
+option , input, textarea {
+    color:#592B27;
+}
+
+textarea {
+    display:flex;
+    color:#260101;
+    padding:5px;
+    margin-bottom:1rem;
+}
+
+.contacttext {
+    margin-top:1rem;
+    display:flex;
+    margin-top:1rem;
+    margin-left:auto;
+    margin-right:auto;
+    align-items:center;
+    justify-content:center;
+}
+
+#formbtns {
+    max-width: 100px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    display:inline;
+}
+
+input[type=submit], input[type=reset] {
+    background-color:  #401B03ff;
+    border: none;
+    color: white;
+    padding: 16px 22px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top:1rem;
+}
+
+.btn:hover {
+    background:#E37E06ff;
+}
+
+
+#map {
+    display:flex;
+    margin-top:1rem;
+    margin-left:auto;
+    margin-right:auto;
+    align-items:center;
+    justify-content:center;
+    max-width:80%;
+    height:auto;
+}
+
+.mapinfo {
+    margin-top:1rem;
+}
+
+.mapzone h2 {
+    color:#592B27;
+    text-align: center;
+}
+
+.mapzone p {
+    border:none;
+    box-shadow:none;
+    text-align: center;
+    background-color: transparent;
+}

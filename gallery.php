@@ -3,7 +3,8 @@
     <head>
         <meta charset = "UTF-8">
         <meta name = "viewport" content="width=device-width, initial-scale=1.0">
-        <title>Barcelona Street Parade Fotos</title>
+        <title>Fotos | Barcelona Street Parade</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/bs.css">
         <link rel="stylesheet" type="text/css" href="css/style2.css">
         <link rel="stylesheet" type="text/css" href="css/stylegallery.css">
@@ -43,6 +44,21 @@
                 </figure>
                 <figure class="flex1 imgcontainer">
                     <img id="img9" class = "slide" src="images/gallery/barcelona_street_parade_9.jpg" alt="espectacle al carrer">
+                </figure>
+                <figure class="flex1 imgcontainer">
+                    <img id="img10" class = "slide" src="images/gallery/barcelona_street_parade_10.jpg" alt="espectacle al carrer">
+                </figure>
+                <figure class="flex1 imgcontainer">
+                    <img id="img11" class = "slide" src="images/gallery/barcelona_street_parade_11.jpg" alt="espectacle al carrer">
+                </figure>
+                <figure class="flex1 imgcontainer">
+                    <img id="img12" class = "slide" src="images/gallery/barcelona_street_parade_12.jpg" alt="espectacle al carrer">
+                </figure>
+                <figure class="flex1 imgcontainer">
+                    <img id="img13" class = "slide" src="images/gallery/barcelona_street_parade_13.jpg" alt="espectacle al carrer">
+                </figure>
+                <figure class="flex1 imgcontainer">
+                    <img id="img14" class = "slide" src="images/gallery/barcelona_street_parade_14.jpg" alt="espectacle al carrer">
                 </figure>
                 
             </div>

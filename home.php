@@ -3,10 +3,11 @@
     <head> 
         <meta charset = "UTF-8">
         <meta name = "viewport" content="width=device-width, initial-scale=1.0">
-        <title>Barcelona Street Parade Inici</title>
+        <title>Inici | Barcelona Street Parade</title>
         <meta name='description' content='Jazz Music Band based in Barcelona'>
         <meta name="keywords" content="jazz, Barcelona, swing">
-        <meta name="author" content="Ingrid">
+        <meta name="author" content="I-Art">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/bs.css">
         <link rel="stylesheet" type="text/css" href="css/style2.css">
         <script src="js/javascript1.js"></script>
@@ -19,10 +20,10 @@
 
         <main class="flex-container">
             <section id="intro">
-                <p id="introEnglish" title="English text.">
-                <b>BARCELONA STREET PARADE</b> neix a Barcelona a l'any 2008. Formada per músics professionals provinents de reconegudes formacions de Jazz Clàssic, la banda es crea amb la voluntat d'oferir la mateixa música que omple els carrers de 
-                la ciutat de New Orleans, adoptant el mateix repertori i aspecte d'una Brass Band tradicional.
-                Formada per 10 músics i un animador, amb la possibilitat de ser ampliada amb una parella de ballarines, el seu terreny natural és el carrer i les desfilades, encara que també oferim concerts a l'escenari.
+                <p id="introSpanish" title="BARCELONA STREET PARADE nace en Barcelona en el año 2008. Formada por músicos profesionales provenientes de reconocidas formaciones de Jazz clásico, la banda se crea con la voluntad de ofrecer la misma música típica de las calles de la ciudad de Nueva Orleans, adoptando el mismo repertorio y aspecto de una Brass Band tradicional. El grupo lo forman 10 músicos y un animador, con posibilidad de ampliarlo con una pareja de bailarinas, y su terreno natural es la calle y los desfiles, aunque también ofrecemos conciertos en escenario.">
+                <b>BARCELONA STREET PARADE</b> neix a Barcelona a l'any 2008. Formada per músics professionals provinents de reconegudes formacions de jazz clàssic, la banda es crea amb la voluntat d'oferir la mateixa música típica dels carrers de 
+                la ciutat de Nova Orleans, adoptant el mateix repertori i aspecte d'una Brass Band tradicional.
+                El grup el formen 10 músics i un animador, amb possibilitat d'incorporar una parella de ballarines, i el seu terreny natural és el carrer i les desfilades, encara que també oferim concerts a l'escenari.
                 </p>
             </section>
             <div id="slides" class="flex-container">

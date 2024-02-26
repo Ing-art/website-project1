@@ -15,7 +15,7 @@
     </head>
     <body>
         <?php require 'templates/template.php' ?>
-        <?php myheader('home') ?>
+        <?php myheader('index') ?>
         <?php mylogo() ?>
 
         <main class="flex-container">

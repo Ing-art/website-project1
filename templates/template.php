@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="home.php" class="nav-link <?= $mypage == "home" ? 'active' : '' ?>">Inici</a>
+                    <a href="index.php" class="nav-link <?= $mypage == "index" ? 'active' : '' ?>">Inici</a>
                 </li>
                 <li class="nav-item">
                     <a href="gallery.php" class="nav-link <?= $mypage == "gallery" ? 'active' : '' ?>">Galeria</a>

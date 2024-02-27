@@ -1,7 +1,7 @@
 <?php function myheader(string $mypage = ''){ ?>
 
 <header class="top">          
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">       <!--class topnav as default-->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark"> 
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>

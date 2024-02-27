@@ -37,7 +37,7 @@
 
 <?php function mylogo() { ?>
     <div id="title">
-            <a href="home.php">
+            <a href="index.php">
             <img id="logo" src="images/bcnlogo_2.jpg" alt="logo" title="logo"></a> 
             <br>
         </div>  

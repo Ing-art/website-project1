@@ -3,9 +3,10 @@
     <head> 
         <meta charset = "UTF-8">
         <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-site-verification" content="GoptN-MySUJDU5mcItsVWF59Euox6jpB51SSvQqzWbk">
         <title>Inici | Barcelona Street Parade</title>
-        <meta name='description' content='Jazz Music Band based in Barcelona'>
-        <meta name="keywords" content="jazz, Barcelona, swing">
+        <meta name='description' content='Banda de Música de Jazz de Nova Orleans'>
+        <meta name="keywords" content="jazz, Barcelona, swing, New Orleans, música al carrer">
         <meta name="author" content="I-Art">
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/bs.css">

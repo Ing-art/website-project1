@@ -6,8 +6,9 @@
         <meta name="google-site-verification" content="GoptN-MySUJDU5mcItsVWF59Euox6jpB51SSvQqzWbk">
         <title>Inici | Barcelona Street Parade</title>
         <meta name='description' content='Banda de Música de Jazz de Nova Orleans'>
-        <meta name="keywords" content="jazz, Barcelona, swing, New Orleans, música al carrer">
+        <meta name="keywords" content="jazz, Barcelona, street parade, swing, New Orleans, música al carrer">
         <meta name="author" content="I-Art">
+        <link rel="canonical" href="https://www.barcelonastreetparade.com">
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/bs.css">
         <link rel="stylesheet" type="text/css" href="css/style2.css">

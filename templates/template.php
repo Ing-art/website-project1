@@ -45,6 +45,6 @@
 
 <?php function myfooter() { ?>
         <div id="footinfo" class="d-flex justify-content-start">
-            <p>I-Art &copy 2024</p>
+            <p>I-Art &copy; 2024</p>
         </div>   
 <?php } ?>

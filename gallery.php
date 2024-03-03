@@ -4,6 +4,7 @@
         <meta charset = "UTF-8">
         <meta name = "viewport" content="width=device-width, initial-scale=1.0">
         <title>Fotos | Barcelona Street Parade</title>
+        <link rel="canonical" href="https://www.barcelonastreetparade.com/gallery.php">
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/bs.css">
         <link rel="stylesheet" type="text/css" href="css/style2.css">
